@@ -1,33 +1,43 @@
 body{
 	margin: 0;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size:17px;
+ 	/*font-family: 'Work Sans', sans-serif;*/
+ 	font-family: 'Quicksand', sans-serif;
+ 	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-size:14px;
 	line-height: 30px;
-	color: #5affd1;
+	color: #ffc7c7;
+	background-color: #05241f;
+	
+
 
 }
 
 header{
 	position: relative;
-	background-color: #052d1f;
+	background-color: #05241f;
 	text-align: center;
 	height: 445px;
+	text-shadow: 5px 4px 1px #05241f; 
 	
 }
 
 h1, h2{
-	font-family: 'Squada One', cursive;
+	/*font-family: 'Squada One', cursive;*/
+	/*font-family: 'Julius Sans One', sans-serif;*/
+	font-family:'Indie Flower', cursive;
 }
 
 h1{
-	FONT-SIZE: 45PX;
+	FONT-SIZE:60PX;
+	font-weight: 1000px;
 }
 
 header h1{
-	color: white;
+	/*color: #5affd1;*/
+	color: #dc5e4a;
 	position: absolute;
   	top: 50%;
- 	left: 50%;
+ 	left: 45%;
   	transform: translate(-50%, -50%);
     
 }
@@ -42,7 +52,7 @@ main{
 	margin:0 auto;
 	margin-color
 	padding: 20px;
-	background-color: #052d1f;
+	background-color: #05241f;
 
 }
 
@@ -51,16 +61,15 @@ main img{
 }
 
 h2{
-	font-size: 35px;
-	color:#bc462b;
+	font-size:25px;
+	color:#8a33cc;
 	margin: 40px 0 10px;
-}
-
-body{
-
-	background-color: #052d1f;
+	font-weight: 1000px;
+	text-shadow: 5px 4px 1px #000000b0; 
+	/*text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e6007300, 0 0 20px #dc4a4a00, 0 0 50px #e6007300, 0 0 60px #e6000000, 0 0 70px #600009;*/
 
 }
+
 
 a{
 	color:#53ac4a;
@@ -76,6 +85,7 @@ footer{
 	text-align: center;
 	color: white;
 	padding: 40px;
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e6007300, 0 0 20px #dc4a4a, 0 0 50px #e60073, 0 0 60px #e6000000, 0 0 70px #600009;
 
 }
 footer p{
@@ -89,10 +99,13 @@ footer a{
 footer a:hover{
 	opacity: .5;
 	background-color: transparent;
+
 }
 
 p.caption{
 	color: #999999;
 	font-style: italic;
 	margin-top: 0;
+	text-shadow: 0;
+
 }
